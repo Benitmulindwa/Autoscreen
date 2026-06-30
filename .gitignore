@@ -1,0 +1,7 @@
+models/
+__pycache__/
+*.pyc
+.env
+*.csv
+screening_results.csv
+.vscode/
