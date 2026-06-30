@@ -20,6 +20,7 @@ An autonomous ligand-based virtual screening pipeline built with Python.
 - SQLAlchemy
 
 ## Example
+You can test it by running `main.py` file
 
 ```python
 from pipeline import ScreeningPipeline
@@ -29,3 +30,9 @@ pipeline = ScreeningPipeline()
 pipeline.train("CHEMBL2094253")
 
 results = pipeline.screen("CHEMBL2094253")
+```
+## Next on the roadmap:
+• FastAPI for a production-ready API
+• Support for multiple ML algorithms
+• Molecular docking for validating top-ranked hits
+• Experiment management and model comparison
