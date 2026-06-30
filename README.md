@@ -18,6 +18,12 @@ An autonomous ligand-based virtual screening pipeline built with Python.
 - scikit-learn
 - PostgreSQL
 - SQLAlchemy
+## Usage
+Clone or download the repo then run the `main.py` file make sure the screening database is ready.
+The drugcentral database can be downloaded [here](https://drugcentral.org/download)
+```python
+pipeline.train(Chembl ID of the target )
+```
 
 ## Example
 You can test it by running `main.py` file
